@@ -1,71 +1,16 @@
-# redux-toolkit-todo-app
-Todo App built with React.js &amp; Redux Toolkit | Sheryians Coding School Mini Hackathon 🚀
+# React + Vite
 
-# Redux Toolkit Todo App 🚀
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-A simple and responsive Todo App built with **React.js** and **Redux Toolkit** to learn modern state management in React applications.
+Currently, two official plugins are available:
 
-## 📌 About the Project
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-This project was created as part of the **Sheryians Coding School Redux Toolkit Mini Hackathon**.
+## React Compiler
 
-The objective was to explore Redux Toolkit through self-learning by reading the official documentation, building a project, documenting the learning process, and explaining the concepts.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## ✨ Features
+## Expanding the Oxlint configuration
 
-- ➕ Add Todos
-- ✏️ Update/Edit Todos
-- 🗑️ Delete Todos
-- 📋 Display Todo List
-- ⚡ Global State Management using Redux Toolkit
-- 📱 Responsive UI
-
-## 🛠️ Tech Stack
-
-- React.js
-- Redux Toolkit
-- React Redux
-- JavaScript (ES6+)
-- CSS3
-- Vite
-
-## 📂 Project Structure
-
-```
-src/
-│
-├── app/
-│   └── store.js
-│
-├── features/
-│   └── todo/
-│       ├── todoSlice.js
-│       └── Todo.jsx
-│
-├── components/
-│
-├── App.jsx
-└── main.jsx
-```
-
-## 🧠 Redux Toolkit Concepts Used
-
-- configureStore()
-- createSlice()
-- useSelector()
-- useDispatch()
-- Reducers
-- Actions
-- Global State Management
-
-
-## 📖 What I Learned
-
-- Why Redux Toolkit is preferred over traditional Redux
-- Creating and configuring the Redux Store
-- Managing application state efficiently
-- Writing reducers using createSlice()
-- Dispatching actions
-- Accessing state with useSelector()
-- Organizing scalable React projects
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
