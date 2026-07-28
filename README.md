@@ -58,31 +58,6 @@ src/
 - Actions
 - Global State Management
 
-## 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/redux-toolkit-todo.git
-```
-
-Go to project folder
-
-```bash
-cd redux-toolkit-todo
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Run the project
-
-```bash
-npm run dev
-```
 
 ## 📖 What I Learned
 
@@ -94,24 +69,3 @@ npm run dev
 - Accessing state with useSelector()
 - Organizing scalable React projects
 
-## 🌐 Live Demo
-
-Add your Vercel deployment link here.
-
-## 📄 Documentation
-
-Add your Documentation (PDF/Google Docs/Notion) link here.
-
-## 🎥 Project Explanation
-
-Add your explanation video link here.
-
-## 📸 Screenshots
-
-Add screenshots of your project here.
-
-## 👨‍💻 Author
-
-**Akash Singh**
-
-If you like this project, don't forget to ⭐ the repository.
